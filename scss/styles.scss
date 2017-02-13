@@ -313,9 +313,10 @@ img {
 	display: inline-block;
 	padding: 0 30px;
 	float: left;
-  background-image: url(/images/logocircle.svg);
+  background-image: url(/images/LogoCircle.svg);
   background-repeat: no-repeat;
   background-size: contain;
+  background-color: $dark-blue;
   height: 60px;
   width: 60px;
   float: left;
@@ -725,6 +726,7 @@ keyframes
   background-image: url(/images/hero2.png);
   background-repeat: no-repeat;
   background-position: center;
+  background-color: $blue;
   top: 0;
   right: 0;
   left: 0;
