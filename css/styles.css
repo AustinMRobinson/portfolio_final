@@ -777,7 +777,6 @@ keyframes
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 11.5rem;
   background-image: url(../images/arrow.svg);
   background-size: 15px;
   background-repeat: no-repeat;
@@ -790,6 +789,7 @@ keyframes
   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  bottom: 10vh;
 }
 
 /* Extra small devices (phones, less than 768px) */
