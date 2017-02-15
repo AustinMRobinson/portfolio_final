@@ -221,7 +221,7 @@ h5 {
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
-  background: rgba(221, 219, 227, 0.8) url(../img//cd-top-arrow.SVG) no-repeat center 50%;
+  background: rgba(221, 219, 227, 0.8) url(../img/cd-top-arrow.SVG) no-repeat center 50%;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
@@ -471,7 +471,7 @@ Stretchy Nav style - common to:
   -o-transform: translateY(-50%) scale(0);
   transform: translateY(-50%) scale(0);
   opacity: .6;
-  background: url(../img//cd-sprite-1.SVG) no-repeat 0 0;
+  background: url(../img/cd-sprite-1.SVG) no-repeat 0 0;
 }
 
 .cd-stretchy-nav ul a::before {
