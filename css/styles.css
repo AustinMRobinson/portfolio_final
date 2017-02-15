@@ -731,6 +731,7 @@ keyframes
   right: 0;
   left: 0;
   bottom: 50px;
+  height: 90vh;
 }
 
 #hero .hero_content {
