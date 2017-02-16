@@ -282,7 +282,7 @@ img {
   display: inline-block;
   padding: 0 30px;
   float: left;
-  background-image: url(../images/LogoCircle.svg);
+  background-image: url(/images/LogoCircle.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-color: #2D2F3E;
@@ -777,7 +777,7 @@ keyframes
   left: 50%;
   transform: translateX(-50%);
   margin-top: 11.5rem;
-  background-image: url(../images/arrow.svg);
+  background-image: url(/images/arrow.svg);
   background-size: 15px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -848,7 +848,7 @@ keyframes
   left: 50%;
   transform: translateX(-50%);
   margin-top: 11.5rem;
-  background-image: url(../images/arrow.svg);
+  background-image: url(/images/arrow.svg);
   background-size: 15px;
   background-repeat: no-repeat;
   background-position: center center;
@@ -906,33 +906,6 @@ keyframes
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-}
-
-#hero3 .follow_me {
-  margin: 0 auto;
-  display: inline-block;
-  background-color: red;
-}
-
-#hero3 .follow_me .center {
-  margin: 0 auto;
-}
-
-#hero3 .follow_me .twitter, #hero3 .follow_me .instagram, #hero3 .follow_me .dribbble, #hero3 .follow_me .behance {
-  border-radius: 7px;
-  box-sizing: border-box;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  padding: 1rem 2rem;
-  background-color: #383a49;
-  margin: 1rem 2rem;
-  display: inline-block;
-}
-
-#hero3 .follow_me .twitter .image, #hero3 .follow_me .instagram .image, #hero3 .follow_me .dribbble .image, #hero3 .follow_me .behance .image {
-  height: 30px;
-  width: 30px;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -1214,28 +1187,28 @@ keyframes
 }
 
 #case_studies .portfolio .study1 {
-  background-image: url(../images/pumpcothumb.jpg);
+  background-image: url(/images/Pumpcothumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #case_studies .portfolio .study2 {
-  background-image: url(../images/armathumb.jpg);
+  background-image: url(/images/armathumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #case_studies .portfolio .study3 {
-  background-image: url(../images/ravethumb.jpg);
+  background-image: url(/images/Ravethumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #case_studies .portfolio .study4 {
-  background-image: url(../images/strnadelthumb.jpg);
+  background-image: url(/images/Strnadelthumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1779,7 +1752,7 @@ footer .footernav .top:hover {
 }
 
 .arma_hero .mockup_image {
-  background-image: url(../images/armapresentation.png);
+  background-image: url(/images/armapresentation.png);
 }
 
 .pumpco_hero {
@@ -1787,7 +1760,7 @@ footer .footernav .top:hover {
 }
 
 .pumpco_hero .mockup_image {
-  background-image: url(../images/pumpcopresentation.svg);
+  background-image: url(/images/pumpcopresentation.svg);
 }
 
 .rave_hero {
@@ -1795,7 +1768,7 @@ footer .footernav .top:hover {
 }
 
 .rave_hero .mockup_image {
-  background-image: url(../images/ravepresentation.svg);
+  background-image: url(/images/ravepresentation.svg);
 }
 
 .ip_hero {
@@ -1803,7 +1776,7 @@ footer .footernav .top:hover {
 }
 
 .ip_hero .mockup_image {
-  background-image: url(../images/ippresentation.svg);
+  background-image: url(/images/ippresentation.svg);
 }
 
 .red_hero {
@@ -1811,7 +1784,7 @@ footer .footernav .top:hover {
 }
 
 .red_hero .mockup_image {
-  background-image: url(../images/redpresentation.png);
+  background-image: url(/images/redpresentation.png);
 }
 
 .strnadel_hero {
@@ -1819,7 +1792,7 @@ footer .footernav .top:hover {
 }
 
 .strnadel_hero .mockup_image {
-  background-image: url(../images/strnadelpresentation.png);
+  background-image: url(/images/strnadelpresentation.png);
 }
 
 #case_study_title {
@@ -1858,7 +1831,7 @@ footer .footernav .top:hover {
 #case_study_title .case_study_buttons .twitterbutton:hover .twitter {
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../images/twitterwhite.svg);
+  background-image: url(/images/twitterwhite.svg);
 }
 
 #case_study_title .case_study_buttons .facebookbutton {
@@ -1874,7 +1847,7 @@ footer .footernav .top:hover {
 #case_study_title .case_study_buttons .facebookbutton:hover .facebook {
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../images/facebookwhite.svg);
+  background-image: url(/images/facebookwhite.svg);
 }
 
 #case_study_title .case_study_buttons .twitter {
@@ -1882,7 +1855,7 @@ footer .footernav .top:hover {
   height: 20px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../images/twittergray.svg);
+  background-image: url(/images/twittergray.svg);
 }
 
 #case_study_title .case_study_buttons .facebook {
@@ -1890,7 +1863,7 @@ footer .footernav .top:hover {
   height: 20px;
   background-repeat: no-repeat;
   background-size: contain;
-  background-image: url(../images/facebookgray.svg);
+  background-image: url(/images/facebookgray.svg);
 }
 
 #case_study_title .case_study_buttons .button {
@@ -2019,7 +1992,7 @@ footer .footernav .top:hover {
   margin-top: 9rem;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/coding.jpg);
+  background-image: url(/images/coding.jpg);
 }
 
 #case_study_ui, #case_study_ui2, #case_study_coding {
@@ -2236,70 +2209,70 @@ footer .footernav .top:hover {
 .armacentrum .wireframe1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/armawireframe1.jpg);
+  background-image: url(/images/armawireframe1.jpg);
   background-position: center center;
 }
 
 .armacentrum .design1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/arma1.jpg);
+  background-image: url(/images/arma1.jpg);
   background-position: center center;
 }
 
 .armacentrum .design2 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/arma2.jpg);
+  background-image: url(/images/arma2.jpg);
   background-position: top left;
 }
 
 .armacentrum .design3 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/arma3.jpg);
+  background-image: url(/images/arma3.jpg);
   background-position: center center;
 }
 
 .armacentrum .design4 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/arma4.jpg);
+  background-image: url(/images/arma4.jpg);
   background-position: center center;
 }
 
 .armacentrum .design5 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/arma5.jpg);
+  background-image: url(/images/arma5.jpg);
   background-position: top center;
 }
 
 .pumpcoinc .sketch1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/pumpcosketch1.jpg);
+  background-image: url(/images/pumpcosketch1.jpg);
   background-position: center center;
 }
 
 .pumpcoinc .design1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/pumpco1.jpg);
+  background-image: url(/images/pumpco1.jpg);
   background-position: center center;
 }
 
 .pumpcoinc .design3 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/pumpco2.jpg);
+  background-image: url(/images/pumpco2.jpg);
   background-position: center center;
 }
 
 .pumpcoinc .design4 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/pumpco3.jpg);
+  background-image: url(/images/pumpco3.jpg);
   background-position: center center;
 }
 
@@ -2327,196 +2300,196 @@ footer .footernav .top:hover {
 .islandparty .sketch1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ipsketch1.jpg);
+  background-image: url(/images/ipsketch1.jpg);
   background-position: center center;
 }
 
 .islandparty .sketch2 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ipsketch2.jpg);
+  background-image: url(/images/ipsketch2.jpg);
   background-position: center center;
 }
 
 .islandparty .wireframe1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ipwireframe1.jpg);
+  background-image: url(/images/ipwireframe1.jpg);
   background-position: center center;
 }
 
 .islandparty .design1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ip1.jpg);
+  background-image: url(/images/ip1.jpg);
   background-position: center center;
 }
 
 .islandparty .design2 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ip2.jpg);
+  background-image: url(/images/ip2.jpg);
   background-position: left center;
 }
 
 .islandparty .design3 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ip3.jpg);
+  background-image: url(/images/ip3.jpg);
   background-position: center center;
 }
 
 .islandparty .design4 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ip4.jpg);
+  background-image: url(/images/ip4.jpg);
   background-position: center center;
 }
 
 .islandparty .design5 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ip5.jpg);
+  background-image: url(/images/ip5.jpg);
   background-position: left center;
 }
 
 .islandparty .design6 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ip6.jpg);
+  background-image: url(/images/ip6.jpg);
   background-position: center center;
 }
 
 .islandparty .design7 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ip7.jpg);
+  background-image: url(/images/ip7.jpg);
   background-position: center center;
 }
 
 .rave2016 .sketch1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ravesketch1.jpg);
+  background-image: url(/images/ravesketch1.jpg);
   background-position: center center;
 }
 
 .rave2016 .sketch2 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/ravesketch2.jpg);
+  background-image: url(/images/ravesketch2.jpg);
   background-position: center center;
 }
 
 .rave2016 .design1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/rave1.jpg);
+  background-image: url(/images/rave1.jpg);
   background-position: center center;
 }
 
 .rave2016 .design3 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/rave2.jpg);
+  background-image: url(/images/rave2.jpg);
   background-position: center center;
 }
 
 .rave2016 .design4 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/rave3.jpg);
+  background-image: url(/images/rave3.jpg);
   background-position: center center;
 }
 
 .redreserve .wireframe1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/redwireframe1.jpg);
+  background-image: url(/images/redwireframe1.jpg);
   background-position: center center;
 }
 
 .redreserve .design1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/red1.jpg);
+  background-image: url(/images/red1.jpg);
   background-position: center center;
 }
 
 .redreserve .design2 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/red2.jpg);
+  background-image: url(/images/red2.jpg);
   background-position: center center;
 }
 
 .redreserve .design3 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/red3.jpg);
+  background-image: url(/images/red3.jpg);
   background-position: center center;
 }
 
 .redreserve .design4 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/red4.jpg);
+  background-image: url(/images/red4.jpg);
   background-position: center center;
 }
 
 .redreserve .design5 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/red5.jpg);
+  background-image: url(/images/red5.jpg);
   background-position: bottom center;
 }
 
 .strnadel .sketch1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadelsketch1.jpg);
+  background-image: url(/images/strnadelsketch1.jpg);
   background-position: center center;
 }
 
 .strnadel .wireframe1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadelwireframe1.jpg);
+  background-image: url(/images/strnadelwireframe1.jpg);
   background-position: center center;
 }
 
 .strnadel .design1 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadel3.jpg);
+  background-image: url(/images/strnadel3.jpg);
   background-position: center center;
 }
 
 .strnadel .design2 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadel2.jpg);
+  background-image: url(/images/strnadel2.jpg);
   background-position: top center;
 }
 
 .strnadel .design3 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadel1.jpg);
+  background-image: url(/images/strnadel1.jpg);
   background-position: center center;
 }
 
 .strnadel .design4 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadel4.jpg);
+  background-image: url(/images/strnadel4.jpg);
   background-position: center center;
 }
 
 .strnadel .design5 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadel5.jpg);
+  background-image: url(/images/strnadel5.jpg);
   background-position: left center;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
@@ -2526,14 +2499,14 @@ footer .footernav .top:hover {
 .strnadel .design6 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadel6.jpg);
+  background-image: url(/images/strnadel6.jpg);
   background-position: center center;
 }
 
 .strnadel .design7 {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/strnadel7.jpg);
+  background-image: url(/images/strnadel7.jpg);
   background-position: center center;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
@@ -2711,27 +2684,27 @@ footer .footernav .top:hover {
 }
 
 #my_work .study_item .arma {
-  background-image: url(../images/armathumb.jpg);
+  background-image: url(/images/armathumb.jpg);
 }
 
 #my_work .study_item .ip {
-  background-image: url(../images/ipthumb.jpg);
+  background-image: url(/images/IPthumb.jpg);
 }
 
 #my_work .study_item .pumpco {
-  background-image: url(../images/pumpcothumb.jpg);
+  background-image: url(/images/Pumpcothumb.jpg);
 }
 
 #my_work .study_item .rave {
-  background-image: url(../images/ravethumb.jpg);
+  background-image: url(/images/Ravethumb.jpg);
 }
 
 #my_work .study_item .red {
-  background-image: url(../images/redthumb.jpg);
+  background-image: url(/images/Redthumb.jpg);
 }
 
 #my_work .study_item .strnadel {
-  background-image: url(../images/strnadelthumb.jpg);
+  background-image: url(/images/Strnadelthumb.jpg);
 }
 
 #about_hero {
@@ -2740,7 +2713,7 @@ footer .footernav .top:hover {
   background-color: #6184d8;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/hero2.png);
+  background-image: url(/images/hero2.png);
   background-position: top center;
 }
 
@@ -2895,7 +2868,7 @@ footer .footernav .top:hover {
 #about_tshaped .tshaped .tshaped_image {
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/tshaped.svg);
+  background-image: url(/images/tshaped.svg);
   background-position: center center;
   height: 375px;
   margin: 1.5rem auto;
