@@ -1187,7 +1187,7 @@ keyframes
 }
 
 #case_studies .portfolio .study1 {
-  background-image: url(/images/Pumpcothumb.jpg);
+  background-image: url(/images/_pumpcothumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1201,14 +1201,14 @@ keyframes
 }
 
 #case_studies .portfolio .study3 {
-  background-image: url(/images/Ravethumb.jpg);
+  background-image: url(/images/_ravethumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #case_studies .portfolio .study4 {
-  background-image: url(/images/Strnadelthumb.jpg);
+  background-image: url(/images/_strnadelthumb.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2688,23 +2688,23 @@ footer .footernav .top:hover {
 }
 
 #my_work .study_item .ip {
-  background-image: url(/images/IPthumb.jpg);
+  background-image: url(/images/_ipthumb.jpg);
 }
 
 #my_work .study_item .pumpco {
-  background-image: url(/images/Pumpcothumb.jpg);
+  background-image: url(/images/_pumpcothumb.jpg);
 }
 
 #my_work .study_item .rave {
-  background-image: url(/images/Ravethumb.jpg);
+  background-image: url(/images/_ravethumb.jpg);
 }
 
 #my_work .study_item .red {
-  background-image: url(/images/Redthumb.jpg);
+  background-image: url(/images/_redthumb.jpg);
 }
 
 #my_work .study_item .strnadel {
-  background-image: url(/images/Strnadelthumb.jpg);
+  background-image: url(/images/_strnadelthumb.jpg);
 }
 
 #about_hero {
