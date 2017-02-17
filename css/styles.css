@@ -12,10 +12,19 @@
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
+.annoyinglink {
+  text-decoration: none;
+}
+
 .button1 {
   background-color: #6184d8;
   color: #ffffff;
   width: 220px;
+  text-decoration: none;
 }
 
 .button1:hover {
@@ -25,6 +34,7 @@
 }
 
 .button2 {
+  text-decoration: none;
   margin: 0 auto;
   box-shadow: inset 0px 0px 0px 2px #6184d8;
   box-sizing: border-box;
@@ -48,6 +58,7 @@
 }
 
 .button3 {
+  text-decoration: none;
   box-shadow: inset 0px 0px 0px 2px #6184d8;
   box-sizing: border-box;
   box-sizing: border-box;
@@ -83,7 +94,7 @@
   color: #8f9098;
   text-align: center;
   line-height: 24px;
-  max-width: 60%;
+  max-width: 80%;
   margin: 0 auto;
   padding-top: 2rem;
 }
@@ -101,7 +112,6 @@
   background-color: #f8f8fb;
   text-align: center;
   margin-top: 1rem;
-  cursor: pointer;
   width: 200px;
   display: block;
 }
@@ -114,7 +124,6 @@
   padding: 1rem 4.5rem;
   background-color: #f8f8fb;
   margin-top: 1rem;
-  cursor: pointer;
 }
 
 h1 {
@@ -278,6 +287,10 @@ img {
 }
 
 .logo {
+  position: relative;
+  z-index: 1;
+  position: fixed;
+  margin-top: 20px;
   margin-left: 6%;
   display: inline-block;
   padding: 0 30px;
@@ -290,6 +303,10 @@ img {
   width: 60px;
   float: left;
   border-radius: 30px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo:hover {
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -724,23 +741,23 @@ keyframes
 #hero {
   z-index: 2;
   width: 100%;
+  background-image: url(/images/hero2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #6184d8;
+  background-size: cover;
   top: 0;
   right: 0;
   left: 0;
-  bottom: 50px;
-  height: 93vh;
 }
 
 #hero .hero_content {
   padding-top: 20rem;
-  padding-bottom: 10rem;
+  padding-bottom: 13rem;
 }
 
 #hero .hero_content h1 {
-  margin-top: -1rem;
+  margin-top: 2rem;
   font-family: "Roboto Slab", serif;
   font-size: 72px;
   color: #ffffff;
@@ -770,13 +787,13 @@ keyframes
   color: #ffffff;
   text-align: center;
   line-height: 24px;
+  max-width: 70%;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-#hero .hero_content .arrow {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  margin-top: 11.5rem;
+#hero .arrow {
   background-image: url(/images/arrow.svg);
   background-size: 15px;
   background-repeat: no-repeat;
@@ -784,12 +801,14 @@ keyframes
   background-color: #ffffff;
   height: 50px;
   width: 50px;
+  margin-bottom: -2.5rem;
   border-radius: 100%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #hero2 {
@@ -843,7 +862,7 @@ keyframes
   line-height: 24px;
 }
 
-#hero2 .hero_content .arrow {
+#hero2 .arrow {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -910,31 +929,12 @@ keyframes
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-/* Small-small devices (tablets, 480px and up) */
-@media screen and (max-width: 480px) {
-  #hero .hero_content, #hero2 .hero_content {
-    max-width: 80%;
-    margin: 0 auto;
-  }
-  #hero .hero_content h1, #hero2 .hero_content h1 {
-    font-size: 56px;
-  }
-  #hero .hero_content h2, #hero2 .hero_content h2 {
-    font-size: 30px;
-    width: 260px;
-  }
-  #hero .hero_content h3, #hero2 .hero_content h3 {
-    font-size: 24px;
-    line-height: 30px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   #hero2 {
     height: 70vh;
   }
   #hero2 .hero_content {
-    padding-top: 15rem;
+    padding-top: 12rem;
   }
   #hero3 {
     height: 30vh;
@@ -944,11 +944,34 @@ keyframes
   }
 }
 
+/* Small-small devices (tablets, 480px and up) */
+@media screen and (max-width: 480px) {
+  #hero .hero_content, #hero2 .hero_content {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  #hero .hero_content h1, #hero2 .hero_content h1 {
+    font-size: 37px;
+  }
+  #hero .hero_content h2, #hero2 .hero_content h2 {
+    font-size: 24px;
+    width: 210px;
+    margin-bottom: 1rem;
+  }
+  #hero .hero_content h3, #hero2 .hero_content h3 {
+    margin-top: 3rem;
+    max-width: 95%;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
 #services {
   background-color: #f8f8fb;
   padding-top: 120px;
   padding-bottom: 150px;
   overflow: hidden;
+  left: 0;
 }
 
 #services .services_content {
@@ -965,6 +988,16 @@ keyframes
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
 }
 
+#services .uidesign .piece_description {
+  font-family: "roboto slab", helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 1rem;
+}
+
 #services .uidesign .piece_header {
   font-family: "Roboto Slab", serif;
   font-size: 20px;
@@ -973,21 +1006,20 @@ keyframes
   font-weight: 600;
 }
 
-#services .uidesign .piece_description {
-  font-family: "roboto slab", helvetica, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #ffffff;
-  text-align: center;
-  line-height: 22px;
-  padding-top: 1rem;
-}
-
 #services .uidesign .service_image {
   height: 150px;
   width: 150px;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+#services .logodesign .piece_description, #services .development .piece_description {
+  font-family: "roboto slab", helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+  padding-top: 1rem;
 }
 
 .logodesign, .development {
@@ -1013,7 +1045,7 @@ keyframes
   font-weight: 400;
   color: #8f9098;
   text-align: center;
-  line-height: 22px;
+  line-height: 24px;
   padding-top: 1rem;
 }
 
@@ -1026,16 +1058,20 @@ keyframes
   display: block;
 }
 
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-/* Small-small devices (tablets, 480px and up) */
-@media screen and (max-width: 480px) {
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width: 992px) {
   #services {
-    padding-top: 70px;
-    padding-bottom: 20px;
+    padding-top: 6rem;
+    padding-bottom: 9rem;
   }
-  #services .uidesign {
-    margin-top: 2rem;
+  #services .section_description {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    max-width: 90%;
+  }
+  #services .uidesign, #services .development {
+    margin-top: 5rem;
   }
   #services .uidesign .piece_header {
     font-size: 24px;
@@ -1043,105 +1079,44 @@ keyframes
   #services .uidesign .piece_description {
     width: 70%;
     margin: 0 auto;
-    font-size: 20px;
-    line-height: 22px;
   }
-  #services .uidesign .service_image {
-    height: 150px;
-    width: 150px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-  .piece_header {
+  #services .piece_header {
     font-size: 24px;
   }
-  .piece_description {
-    width: 70%;
+  #services .piece_description {
+    width: 90%;
     margin: 0 auto;
-    font-size: 20px;
-    line-height: 22px;
-  }
-  .service_image {
-    height: 150px;
-    width: 150px;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-  .development {
-    margin-top: 2rem;
   }
 }
 
 /* Small devices (tablets, 768px and up) */
 @media screen and (max-width: 768px) {
   #services {
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 7rem;
+    padding-bottom: 8rem;
   }
-  #services .uidesign {
-    margin-top: 2rem;
-  }
-  #services .uidesign .piece_header {
-    font-size: 24px;
-  }
-  #services .uidesign .piece_description {
-    width: 70%;
-    margin: 0 auto;
-    font-size: 20px;
-    line-height: 22px;
-  }
-  .development {
-    margin-top: 2rem;
-  }
-  .piece_header {
-    font-size: 24px;
-  }
-  .piece_description {
-    width: 70%;
-    margin: 0 auto;
-    font-size: 20px;
-    line-height: 22px;
-  }
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media screen and (max-width: 992px) {
-  #services {
-    padding-top: 80px;
-    padding-bottom: 50px;
+  #services .uidesign, #services .development {
+    margin-top: 7rem;
   }
   #services .section_description {
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
-    line-height: 30px;
-  }
-  #services .uidesign {
-    margin-top: 2rem;
-  }
-  #services .uidesign .piece_header {
-    font-size: 24px;
-  }
-  #services .uidesign .piece_description {
-    width: 70%;
-    margin: 0 auto;
-    font-size: 20px;
-    line-height: 22px;
-  }
-  #services .development {
-    margin-top: 2rem;
-  }
-  #services .piece_header {
-    font-size: 24px;
-  }
-  #services .piece_description {
-    width: 70%;
-    margin: 0 auto;
-    font-size: 20px;
-    line-height: 22px;
+    line-height: 24px;
+    max-width: 95%;
   }
 }
 
-/* Large devices (large desktops, 1200px and up) */
+/* Small-small devices (tablets, 480px and up) */
+@media screen and (max-width: 480px) {
+  #services {
+    padding-top: 70px;
+    padding-bottom: 8rem;
+  }
+  #services .section_description {
+    max-width: 85%;
+  }
+}
+
 #case_studies {
   background-color: #ffffff;
   padding-top: 120px;
@@ -1157,6 +1132,10 @@ keyframes
   max-width: none;
   font-size: 18px;
   text-align: left;
+}
+
+#case_studies .categories a {
+  text-decoration: none;
 }
 
 #case_studies .categories p {
@@ -1216,43 +1195,6 @@ keyframes
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-/* Small-small devices (tablets, 480px and up) */
-@media screen and (max-width: 480px) {
-  #case_studies {
-    background-color: #ffffff;
-    padding-top: 70px;
-    padding-bottom: 60px;
-  }
-  #case_studies .section_header {
-    font-size: 32px;
-    text-align: center;
-  }
-  #case_studies .section_description {
-    max-width: none;
-    font-size: 20px;
-    text-align: center;
-  }
-  #case_studies .study3, #case_studies .study4 {
-    display: none;
-  }
-}
-
-/* Small devices (tablets, 768px and up) */
-@media screen and (max-width: 768px) {
-  #case_studies .section_header {
-    font-size: 32px;
-    text-align: center;
-  }
-  #case_studies .section_description {
-    max-width: none;
-    font-size: 20px;
-    text-align: center;
-  }
-  #case_studies .study3, #case_studies .study4 {
-    display: none;
-  }
-}
-
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width: 992px) {
   #case_studies {
@@ -1265,7 +1207,6 @@ keyframes
     text-align: center;
   }
   #case_studies .section_description {
-    max-width: none;
     font-size: 20px;
     text-align: center;
     line-height: 30px;
@@ -1283,6 +1224,39 @@ keyframes
   }
   #case_studies .portfolio {
     margin-top: 5rem;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  #case_studies .section_header {
+    font-size: 32px;
+    text-align: center;
+  }
+  #case_studies .section_description {
+    max-width: none;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #case_studies .study3, #case_studies .study4 {
+    display: none;
+  }
+}
+
+/* Small-small devices (tablets, 480px and up) */
+@media screen and (max-width: 480px) {
+  #case_studies {
+    background-color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+  #case_studies .section_header {
+    font-size: 32px;
+    text-align: center;
+  }
+  #case_studies .study3, #case_studies .study4 {
+    display: none;
   }
 }
 
@@ -1354,15 +1328,51 @@ keyframes
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-/* Small-small devices (tablets, 480px and up) */
-/* Small devices (tablets, 768px and up) */
-@media screen and (max-width: 768px) {
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width: 992px) {
+  #experience {
+    padding-top: 60px;
+    padding-bottom: 70px;
+  }
+  #experience .section_description {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  #experience .jobs {
+    margin: 0 auto;
+    width: 100%;
+  }
   #experience .job {
     text-align: center;
   }
   #experience .job_title {
     font-size: 24px;
-    line-height: 10px;
+    line-height: 30px;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+  #experience .job3 {
+    display: none;
+  }
+  #experience .header {
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+  }
+  #experience .job_description {
+    text-align: center;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  #experience .experience_content .section_description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #experience .job_title {
+    font-size: 24px;
+    line-height: 36px;
     text-align: center;
   }
   #experience .job_title a {
@@ -1383,47 +1393,11 @@ keyframes
     text-align: center;
     line-height: 24px;
   }
-  #experience .job_description {
-    font-size: 20px;
-    text-align: center;
-    line-height: 24px;
-  }
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media screen and (max-width: 992px) {
-  #experience {
-    padding-top: 60px;
-    padding-bottom: 70px;
-  }
-  #experience .section_description {
-    line-height: 30px;
-    font-size: 20px;
-  }
-  #experience .jobs {
-    margin: 0 auto;
-    width: 100%;
-  }
+@media screen and (max-width: 480px) {
   #experience .job {
-    text-align: center;
-  }
-  #experience .job_title {
-    font-size: 24px;
-    line-height: 10px;
-    text-align: center;
-  }
-  #experience .job3 {
-    display: none;
-  }
-  #experience .header {
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
-  }
-  #experience .job_description {
-    font-size: 20px;
-    text-align: center;
-    line-height: 30px;
+    margin-top: 5rem;
   }
 }
 
@@ -1514,43 +1488,6 @@ keyframes
 
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
-/* Small-small devices (tablets, 480px and up) */
-@media screen and (max-width: 480px) {
-  #testimones {
-    background-color: #ffffff;
-    padding-top: 70px;
-    padding-bottom: 60px;
-  }
-  #testimones .section_header {
-    font-size: 32px;
-    text-align: center;
-  }
-  #testimones .section_description {
-    max-width: none;
-    font-size: 20px;
-    text-align: center;
-  }
-  #testimones .study3, #testimones .study4 {
-    display: none;
-  }
-}
-
-/* Small devices (tablets, 768px and up) */
-@media screen and (max-width: 768px) {
-  #testimonies .section_header {
-    font-size: 32px;
-    text-align: center;
-  }
-  #testimonies .section_description {
-    max-width: none;
-    font-size: 20px;
-    text-align: center;
-  }
-  #testimonies .study3, #testimonies .study4 {
-    display: none;
-  }
-}
-
 /* Medium devices (desktops, 992px and up) */
 @media screen and (max-width: 992px) {
   #testimonies {
@@ -1570,11 +1507,9 @@ keyframes
   }
   #testimonies .section_description {
     max-width: none;
-    font-size: 20px;
     text-align: center;
     max-width: 60%;
     margin: 0 auto;
-    line-height: 30px;
   }
   #testimonies .companies p {
     display: none;
@@ -1589,6 +1524,58 @@ keyframes
   }
   #testimonies .quote {
     margin-top: 5rem;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+  #testimonies .section_header {
+    font-size: 32px;
+    text-align: center;
+  }
+  #testimonies .section_description {
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 80%;
+  }
+  #testimonies .study3, #testimonies .study4 {
+    display: none;
+  }
+}
+
+/* Small-small devices (tablets, 480px and up) */
+@media screen and (max-width: 480px) {
+  #testimones {
+    background-color: #ffffff;
+    margin-bottom: -60px;
+  }
+  #testimones .section_header {
+    font-size: 32px;
+    text-align: center;
+  }
+  #testimones .section_description {
+    max-width: none;
+    font-size: 20px;
+    text-align: center;
+  }
+  #testimones .study3, #testimones .study4 {
+    display: none;
+  }
+  .quote {
+    padding-bottom: 7rem;
+    margin-bottom: 0;
+  }
+  .quote .quote_1 {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+  .quote .quote_1 p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #383a49;
+    line-height: 24px;
+  }
+  .quote .quote_1 h2 {
+    font-size: 24px;
   }
 }
 
@@ -1627,7 +1614,6 @@ footer .footernav {
 footer .footernav ul {
   list-style-type: none;
   line-height: 36px;
-  height: 200px;
 }
 
 footer .footernav li {
@@ -1697,7 +1683,7 @@ footer .footernav .top:hover {
   footer .footernav ul {
     list-style-type: none;
     line-height: 48px;
-    height: 275px;
+    padding-top: 3rem;
   }
   footer .footernav li {
     font-family: "roboto", helvetica, sans-serif;
@@ -1729,6 +1715,26 @@ footer .footernav .top:hover {
   footer .contact h1 {
     font-size: 36px;
     line-height: 44px;
+  }
+  footer .footernav ul {
+    margin-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  footer {
+    margin-top: -60px;
+  }
+  footer .contact .button {
+    font-size: 14px;
+  }
+  footer .footernav {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  footer .footernav li, footer .footernav .page {
+    font-size: 14px;
+    line-height: 36px;
   }
 }
 
