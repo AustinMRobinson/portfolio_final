@@ -741,7 +741,7 @@ keyframes
 #hero {
   z-index: 2;
   width: 100%;
-  background-image: url(/images/hero2.png);
+  background-image: url(/images/hero2.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #6184d8;
@@ -1412,6 +1412,10 @@ keyframes
   display: none;
 }
 
+#testimonies .second_order a {
+  text-decoration: none;
+}
+
 #testimonies .section_header {
   font-size: 32px;
   text-align: left;
@@ -1429,6 +1433,10 @@ keyframes
   font-size: 14px;
   font-weight: 800;
   color: #8f9098;
+}
+
+.companies a {
+  text-decoration: none;
 }
 
 .companies img {
@@ -1584,10 +1592,17 @@ footer {
   padding: 10rem 0 4rem 0;
 }
 
+footer a {
+  text-decoration: none;
+}
+
 footer .contact {
-  margin: 0 auto;
   text-align: center;
   padding-bottom: 7rem;
+}
+
+footer .contact a {
+  text-decoration: none;
 }
 
 footer .contact h1 {
@@ -1599,16 +1614,33 @@ footer .contact h1 {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
+  padding-bottom: 2rem;
 }
 
-footer .contact .button2 {
-  font-size: 18px;
-  margin-top: 3rem;
+footer .contact .contactlink {
+  padding-top: 4rem;
+  margin-top: auto;
+  margin-right: auto;
+  display: block;
+}
+
+footer .contact h3 {
+  display: block;
+  color: #6184d8;
+  padding-bottom: 1rem;
+}
+
+footer .contact h3:hover {
+  text-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4);
 }
 
 footer .footernav {
   overflow: hidden;
   padding-top: 4rem;
+}
+
+footer .footernav a {
+  text-decoration: none;
 }
 
 footer .footernav ul {
@@ -1679,6 +1711,16 @@ footer .footernav .top:hover {
 @media screen and (max-width: 992px) {
   footer .annoyinglink {
     text-decoration: none;
+  }
+  footer .contact {
+    padding-bottom: 2rem;
+  }
+  footer .contact h3 {
+    font-size: 24px;
+  }
+  footer .footernav {
+    margin-top: -2rem;
+    padding-top: 1rem;
   }
   footer .footernav ul {
     list-style-type: none;
@@ -2719,24 +2761,45 @@ footer .footernav .top:hover {
   background-color: #6184d8;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(/images/hero2.png);
+  background-image: url(../images/_hero4.jpg);
   background-position: top center;
 }
 
 #about_intro {
   background-color: #f8f8fb;
   padding-top: 7rem;
-  padding-bottom: 8rem;
+  padding-bottom: 10rem;
 }
 
 #about_intro .p3 {
   padding-top: 2rem;
   line-height: 27px;
-  max-width: 90%;
+}
+
+#about_intro h2 {
+  color: #ffffff;
+  margin-top: -23rem;
+  text-align: center;
+  margin-bottom: 19rem;
+  background-color: #6184d8;
+  padding: 2rem 3.5rem 2rem 3.5rem;
 }
 
 #about_intro .aboutme {
-  margin-top: 2rem;
+  margin-top: -64rem;
+  display: block;
+  background-color: #ffffff;
+  border-radius: 7px;
+  padding: 2rem 4rem 4rem 4rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+#about_intro .aboutme2 {
+  margin-top: 4rem;
+  display: none;
   background-color: #ffffff;
   border-radius: 7px;
   padding: 2rem 4rem 4rem 4rem;
@@ -2747,7 +2810,7 @@ footer .footernav .top:hover {
 }
 
 #about_intro .table_of_contents {
-  margin-top: 2rem;
+  margin-top: 4rem;
   background-color: #ffffff;
   padding: 2rem 3rem 1rem 3rem;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
@@ -2843,7 +2906,7 @@ footer .footernav .top:hover {
 #about_tshaped {
   padding-top: 12rem;
   padding-bottom: 10rem;
-  background-color: #2D2F3E;
+  background-color: #383a49;
 }
 
 #about_tshaped h3 {
@@ -2861,11 +2924,8 @@ footer .footernav .top:hover {
 
 #about_tshaped .tshaped {
   margin-top: 1rem;
-  background-color: #ffffff;
+  background-color: #6184d8;
   border-radius: 7px;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
-  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
-  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   text-align: center;
   height: 400px;
@@ -2873,8 +2933,8 @@ footer .footernav .top:hover {
 
 #about_tshaped .tshaped .tshaped_image {
   background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(/images/tshaped.svg);
+  background-size: contain;
+  background-image: url(/images/tshaped2.svg);
   background-position: center center;
   height: 375px;
   margin: 1.5rem auto;
@@ -2890,4 +2950,173 @@ footer .footernav .top:hover {
   padding-top: 2rem;
   line-height: 27px;
   max-width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+  #about_hero {
+    background-position: center center;
+    background-image: url(../images/_hero42.jpg);
+  }
+  #about_intro {
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+  }
+  #about_intro .p3 {
+    padding-top: 2rem;
+    line-height: 24px;
+    font-size: 16px;
+  }
+  #about_intro h2 {
+    background-color: transparent;
+    margin-top: -30rem;
+    margin-bottom: 0rem;
+  }
+  #about_intro .aboutme2 {
+    text-align: center;
+    margin-top: -19rem;
+    display: block;
+  }
+  #about_intro .aboutme {
+    display: none;
+  }
+  #about_intro .table_of_contents {
+    margin-top: 8rem;
+  }
+  #about_volta {
+    text-align: center;
+  }
+  #about_volta .p3 {
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #about_volta .unicorn {
+    padding: 2rem;
+  }
+  #about_whatsnext {
+    text-align: center;
+  }
+  #about_whatsnext .p3 {
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #about_tshaped {
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+    text-align: center;
+  }
+  #about_tshaped .p3 {
+    line-height: 24px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #about_tshaped .tshaped {
+    margin: 3rem auto;
+  }
+  #about_tshaped2 {
+    padding-top: 5rem;
+    text-align: center;
+    padding-bottom: 12rem;
+  }
+  #about_tshaped2 .p3 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%;
+  }
+  #about_tshaped2 .category {
+    margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #casestudy_hero {
+    height: 350px;
+  }
+  #casestudy_hero .mockup_image {
+    margin-top: 12rem;
+    width: 350px;
+  }
+  #case_study_title {
+    padding-bottom: 2rem;
+  }
+}
+
+#my_work {
+  padding-top: 12rem;
+  padding-bottom: 9rem;
+  background: #f8f8fb;
+}
+
+#my_work .study_item {
+  text-align: center;
+  background: #ffffff;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  margin-bottom: 7rem;
+}
+
+#my_work .study_item:hover {
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+}
+
+#my_work .study_item:hover h3 {
+  color: #6184d8;
+}
+
+#my_work .study_item .image {
+  width: 100%;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #8f9098;
+  background-position: center center;
+}
+
+#my_work .study_item h3 {
+  font-size: 36px;
+  padding-top: 2rem;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#my_work .study_item .category {
+  font-size: 12px;
+  padding: 1rem 2rem;
+  display: inline-block;
+  margin: 1rem auto 3rem auto;
+  max-width: 120px;
+}
+
+#my_work .study_item .arma {
+  background-image: url(/images/armathumb.jpg);
+}
+
+#my_work .study_item .ip {
+  background-image: url(/images/_ipthumb.jpg);
+}
+
+#my_work .study_item .pumpco {
+  background-image: url(/images/_pumpcothumb.jpg);
+}
+
+#my_work .study_item .rave {
+  background-image: url(/images/_ravethumb.jpg);
+}
+
+#my_work .study_item .red {
+  background-image: url(/images/_redthumb.jpg);
+}
+
+#my_work .study_item .strnadel {
+  background-image: url(/images/_strnadelthumb.jpg);
 }
