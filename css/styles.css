@@ -1186,28 +1186,29 @@ keyframes
 }
 
 #case_studies .portfolio .study1 {
-  background-image: url(/images/_pumpcothumb.jpg);
+  background-image: url(/images/pumpcothumb2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
 }
 
 #case_studies .portfolio .study2 {
-  background-image: url(/images/armathumb.jpg);
+  background-image: url(/images/armathumb2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #case_studies .portfolio .study3 {
-  background-image: url(/images/_ravethumb.jpg);
+  background-image: url(/images/ravethumb2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 #case_studies .portfolio .study4 {
-  background-image: url(/images/_strnadelthumb.jpg);
+  background-image: url(/images/strnadelthumb2.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
