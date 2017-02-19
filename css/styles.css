@@ -25,9 +25,11 @@ a {
   color: #ffffff;
   width: 220px;
   text-decoration: none;
+  transition: 0.3 ease;
 }
 
 .button1:hover {
+  transition: 0.6 ease;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -46,9 +48,11 @@ a {
   color: #6184d8;
   padding: 1.5rem 7rem;
   width: 250px;
+  transition: 0.3 ease;
 }
 
 .button2:hover {
+  transition: 0.6 ease;
   background-color: #6184d8;
   color: #ffffff;
   padding: 1.5rem 7rem;
@@ -67,10 +71,12 @@ a {
   background-color: transparent;
   background-repeat: no-repeat;
   color: #6184d8;
+  transition: 0.3 ease;
   width: 225px;
 }
 
 .button3:hover {
+  transition: 0.6 ease;
   background-color: #6184d8;
   color: #ffffff;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -307,6 +313,7 @@ img {
 }
 
 .logo:hover {
+  transition: 0.3 ease;
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
 }
 
@@ -420,6 +427,7 @@ Stretchy Nav style - common to:
 
 .no-touch .cd-nav-trigger:hover ~ .stretchy-nav-bg {
   box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.3 ease;
 }
 
 .nav-is-visible .cd-nav-trigger span {
@@ -489,7 +497,7 @@ Stretchy Nav style - common to:
   -o-transform: translateY(-50%) scale(0);
   transform: translateY(-50%) scale(0);
   opacity: .6;
-  background: url(../img/cd-sprite-1.svg) no-repeat 0 0;
+  background: url(../img/cd-sprite-5.svg) no-repeat 0 0;
 }
 
 .cd-stretchy-nav ul a::before {
@@ -925,6 +933,7 @@ keyframes
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: 0.3 ease;
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -1304,6 +1313,7 @@ keyframes
 }
 
 #experience .job_title a:hover {
+  transition: 0.3 ease;
   color: #383a49;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
@@ -1379,6 +1389,7 @@ keyframes
     text-align: center;
   }
   #experience .job_title a:hover {
+    transition: 0.3 ease;
     color: #383a49;
     text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   }
@@ -1631,6 +1642,7 @@ footer .contact h3 {
 }
 
 footer .contact h3:hover {
+  transition: 0.3 ease;
   text-shadow: 0px 3px 20px rgba(0, 0, 0, 0.4);
 }
 
@@ -1674,6 +1686,7 @@ footer .footernav .page {
 
 footer .footernav .page:hover {
   color: #6184d8;
+  transition: 0.3 ease;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
 }
 
@@ -1702,6 +1715,7 @@ footer .footernav .top img {
 }
 
 footer .footernav .top:hover {
+  transition: 0.3 ease;
   background-color: #ffffff;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
   -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
@@ -1871,6 +1885,7 @@ footer .footernav .top:hover {
 }
 
 #case_study_title .case_study_buttons .twitterbutton:hover {
+  transition: 0.3 ease;
   background-color: #55ACEE;
   border: none;
   box-shadow: inset 0px 0px 0px 0px;
@@ -1887,6 +1902,7 @@ footer .footernav .top:hover {
 }
 
 #case_study_title .case_study_buttons .facebookbutton:hover {
+  transition: 0.3 ease;
   background-color: #3B5998;
   border: none;
   box-shadow: inset 0px 0px 0px 0px;
@@ -1966,6 +1982,7 @@ footer .footernav .top:hover {
 
 #case_study_title .table_of_contents .toc_item:hover {
   color: #6184d8;
+  transition: 0.3 ease;
   background-color: #ffffff;
 }
 
@@ -2105,6 +2122,7 @@ footer .footernav .top:hover {
 }
 
 #case_study_ui .see_site1:hover, #case_study_ui2 .see_site1:hover, #case_study_coding .see_site1:hover {
+  transition: 0.3 ease;
   color: #2D2F3E;
   border-bottom: 2px solid #2D2F3E;
 }
@@ -2133,6 +2151,7 @@ footer .footernav .top:hover {
 }
 
 #case_study_ui .see_site2:hover, #case_study_ui2 .see_site2:hover, #case_study_coding .see_site2:hover {
+  transition: 0.3 ease;
   color: #2D2F3E;
   border-bottom: 2px solid #2D2F3E;
 }
@@ -2197,6 +2216,7 @@ footer .footernav .top:hover {
 }
 
 #more_studies .another_study:hover {
+  transition: 0.3 ease;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
@@ -2697,6 +2717,7 @@ footer .footernav .top:hover {
 }
 
 #my_work .study_item:hover {
+  transition: 0.3 ease;
   box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
@@ -2844,6 +2865,7 @@ footer .footernav .top:hover {
 }
 
 #about_intro .table_of_contents .toc_item:hover {
+  transition: 0.3 ease;
   color: #6184d8;
   background-color: #f8f8fb;
 }
@@ -3063,6 +3085,7 @@ footer .footernav .top:hover {
 }
 
 #my_work .study_item:hover {
+  transition: 0.3 ease;
   box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
   -webkit-box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
