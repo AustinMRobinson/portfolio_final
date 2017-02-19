@@ -1,10 +1,16 @@
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .button {
   font-family: "Roboto", Helvetica, sans-serif;
   border: none;
   outline: none;
   border-radius: 7px;
   padding: 1.5rem 2.5rem;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 14px;
   text-decoration: none;
   text-align: center;
@@ -90,11 +96,11 @@ a {
   color: #383a49;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .section_description {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 18px;
   font-weight: 400;
   color: #8f9098;
@@ -133,7 +139,7 @@ a {
 }
 
 h1 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -143,7 +149,7 @@ h1 {
 }
 
 h2 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -153,7 +159,7 @@ h2 {
 }
 
 h3 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -163,7 +169,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -173,7 +179,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -184,7 +190,7 @@ h5 {
 }
 
 .p1 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -194,7 +200,7 @@ h5 {
 }
 
 .p2 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -204,7 +210,7 @@ h5 {
 }
 
 .p3 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -214,7 +220,7 @@ h5 {
 }
 
 .p4 {
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -773,11 +779,11 @@ keyframes
   text-transform: uppercase;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #hero .hero_content h2 {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 36px;
   color: #383a49;
   text-align: center;
@@ -785,11 +791,11 @@ keyframes
   background-color: #6184d8;
   width: 320px;
   margin: 0 auto 3rem auto;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #hero .hero_content h3 {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
@@ -819,6 +825,11 @@ keyframes
   margin-right: auto;
 }
 
+#hero .arrow:hover:hover {
+  transition: 0.3 ease;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
 #hero2 {
   z-index: 2;
   width: 100%;
@@ -846,11 +857,11 @@ keyframes
   text-transform: uppercase;
   text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
   letter-spacing: 2px;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #hero2 .hero_content h2 {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 36px;
   color: #383a49;
   text-align: center;
@@ -858,11 +869,11 @@ keyframes
   background-color: #6184d8;
   width: 320px;
   margin: 0 auto 3rem auto;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #hero2 .hero_content h3 {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
@@ -905,7 +916,7 @@ keyframes
 }
 
 #hero3 .keep_up h3 {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 24px;
   font-weight: 400;
   color: #ffffff;
@@ -998,7 +1009,7 @@ keyframes
 }
 
 #services .uidesign .piece_description {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
   font-weight: 400;
   color: #ffffff;
@@ -1012,7 +1023,7 @@ keyframes
   font-size: 20px;
   color: #ffffff;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #services .uidesign .service_image {
@@ -1023,7 +1034,7 @@ keyframes
 }
 
 #services .logodesign .piece_description, #services .development .piece_description {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
@@ -1045,11 +1056,11 @@ keyframes
   font-size: 20px;
   color: #383a49;
   text-align: center;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .piece_description {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
   font-weight: 400;
   color: #8f9098;
@@ -1149,7 +1160,7 @@ keyframes
 
 #case_studies .categories p {
   margin-top: 3rem;
-  font-family: "Roboto slab", Helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 800;
   color: #8f9098;
@@ -1275,6 +1286,10 @@ keyframes
   padding-bottom: 100px;
 }
 
+#experience a {
+  color: #6184d8;
+}
+
 #experience .experience_content {
   margin-bottom: 3rem;
 }
@@ -1296,8 +1311,8 @@ keyframes
 }
 
 #experience .job_title {
-  font-family: "Roboto slab", Helvetica, sans-serif;
-  font-weight: 600;
+  font-family: "Roboto slab", serif;
+  font-weight: 700;
   color: #383a49;
   font-size: 20px;
   line-height: 10px;
@@ -1319,16 +1334,16 @@ keyframes
 }
 
 #experience .header {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: #383a49;
   text-align: left;
   line-height: 24px;
 }
 
 #experience .job_description {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 16px;
   font-weight: 400;
   color: #8f9098;
@@ -1414,7 +1429,7 @@ keyframes
 
 #testimonies {
   background-color: #ffffff;
-  padding-top: 100px;
+  padding-top: 130px;
   padding-bottom: 120px;
   overflow: hidden;
 }
@@ -1440,7 +1455,7 @@ keyframes
 
 .companies p {
   margin-top: 3rem;
-  font-family: "Roboto slab", Helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 14px;
   font-weight: 800;
   color: #8f9098;
@@ -1462,7 +1477,7 @@ keyframes
 
 .quote {
   background-color: #f8f8fb;
-  margin-top: 2rem;
+  margin-top: -3rem;
   padding: 3rem;
   text-align: center;
 }
@@ -1473,9 +1488,9 @@ keyframes
 }
 
 .quote .quote_1 p {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: #383a49;
   line-height: 30px;
 }
@@ -1488,9 +1503,9 @@ keyframes
 }
 
 .quote .quote_1 h2 {
-  font-family: "roboto slab", helvetica, sans-serif;
+  font-family: "Roboto Slab", serif;
   font-size: 28px;
-  font-weight: 600;
+  font-weight: 700;
   color: #383a49;
   line-height: 24px;
 }
@@ -1589,7 +1604,7 @@ keyframes
   }
   .quote .quote_1 p {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     color: #383a49;
     line-height: 24px;
   }
@@ -1623,7 +1638,7 @@ footer .contact h1 {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 1px;
   padding-bottom: 2rem;
 }
@@ -1673,7 +1688,7 @@ footer .footernav .title {
   color: #6184d8;
   text-align: left;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 footer .footernav .page {
@@ -1757,7 +1772,7 @@ footer .footernav .top:hover {
     color: #6184d8;
     text-align: left;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
   }
   footer .footernav .top {
     margin-top: 3rem;
@@ -1869,6 +1884,10 @@ footer .footernav .top:hover {
   border-bottom: 2px solid #F6F6FD;
 }
 
+#case_study_title .case_study_buttons a {
+  text-decoration: none;
+}
+
 #case_study_title .case_study_buttons .social_button {
   margin-top: 2.5rem;
   display: inline-block;
@@ -1958,7 +1977,7 @@ footer .footernav .top:hover {
 #case_study_title .table_of_contents .table_header {
   text-align: center;
   padding-bottom: 2rem;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -1970,7 +1989,7 @@ footer .footernav .top:hover {
 #case_study_title .table_of_contents .toc_item {
   border-radius: 7px;
   text-align: left;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -2011,7 +2030,7 @@ footer .footernav .top:hover {
 
 #case_study_intro .case_study_info h3, #case_study_brief .case_study_info h3, #case_study_rnd .case_study_info h3, #case_study_ui .case_study_info h3, #case_study_ui2 .case_study_info h3, #case_study_coding .case_study_info h3, #case_study_learn .case_study_info h3 {
   display: inline-block;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -2023,7 +2042,7 @@ footer .footernav .top:hover {
 
 #case_study_intro .case_study_info .p2, #case_study_brief .case_study_info .p2, #case_study_rnd .case_study_info .p2, #case_study_ui .case_study_info .p2, #case_study_ui2 .case_study_info .p2, #case_study_coding .case_study_info .p2, #case_study_learn .case_study_info .p2 {
   margin-top: 4rem;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -2842,7 +2861,7 @@ footer .footernav .top:hover {
 #about_intro .table_of_contents .table_header {
   text-align: center;
   padding-bottom: 2rem;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -2854,7 +2873,7 @@ footer .footernav .top:hover {
 #about_intro .table_of_contents .toc_item {
   border-radius: 7px;
   text-align: left;
-  font-family: "Roboto Slab";
+  font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
