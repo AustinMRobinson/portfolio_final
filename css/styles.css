@@ -1817,13 +1817,17 @@ footer .footernav .top:hover {
   overflow: hidden;
 }
 
+#casestudy_hero .container {
+  height: 100%;
+}
+
 #casestudy_hero .mockup_image {
   background-repeat: no-repeat;
   background-size: contain;
   width: 800px;
   height: 100%;
   margin: 10rem auto 0 auto;
-  transition: 0.2s ease;
+  transition: .2s ease;
 }
 
 .arma_hero {
@@ -1871,7 +1875,7 @@ footer .footernav .top:hover {
 }
 
 .strnadel_hero .mockup_image {
-  background-image: url(../images/-strnadelpresentation.png);
+  background-image: url(../images/_strnadelpresentation.png);
 }
 
 #case_study_title {
