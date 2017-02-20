@@ -2141,21 +2141,42 @@ footer .footernav .top:hover {
   text-decoration: none;
 }
 
+#case_study_ui .see_site1 .site_arrow, #case_study_ui2 .see_site1 .site_arrow, #case_study_coding .see_site1 .site_arrow {
+  float: right;
+  width: 19px;
+  height: 13px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#case_study_ui .see_site1 .site_arrow1, #case_study_ui2 .see_site1 .site_arrow1, #case_study_coding .see_site1 .site_arrow1 {
+  background-image: url(../images/arrowgray.svg);
+  height: 13px;
+}
+
+#case_study_ui .see_site1 .site_arrow2, #case_study_ui2 .see_site1 .site_arrow2, #case_study_coding .see_site1 .site_arrow2 {
+  background-image: url(../images/arrowgray.svg);
+  height: 13px;
+}
+
 #case_study_ui .see_site1:hover, #case_study_ui2 .see_site1:hover, #case_study_coding .see_site1:hover {
   transition: 0.3 ease;
   color: #2D2F3E;
   border-bottom: 2px solid #2D2F3E;
 }
 
-#case_study_ui .see_site1:hover svg, #case_study_ui2 .see_site1:hover svg, #case_study_coding .see_site1:hover svg {
-  fill: #2D2F3E;
+#case_study_ui .see_site1:hover .site_arrow1, #case_study_ui2 .see_site1:hover .site_arrow1, #case_study_coding .see_site1:hover .site_arrow1 {
+  background-image: url(../images/arrowdarkblue.svg);
+  height: 13px;
 }
 
-#case_study_ui .see_site1 svg, #case_study_ui2 .see_site1 svg, #case_study_coding .see_site1 svg {
-  float: right;
+#case_study_ui .see_site1:hover .site_arrow2, #case_study_ui2 .see_site1:hover .site_arrow2, #case_study_coding .see_site1:hover .site_arrow2 {
+  background-image: url(../images/arrowdarkblue.svg);
+  height: 13px;
 }
 
-#case_study_ui .see_site2, #case_study_ui2 .see_site2, #case_study_coding .see_site2 {
+#case_study_ui .see_site1 .see_site2, #case_study_ui2 .see_site1 .see_site2, #case_study_coding .see_site1 .see_site2 {
   display: none;
   padding: 0 2rem 0 2rem;
   margin-top: 6rem;
@@ -2170,18 +2191,39 @@ footer .footernav .top:hover {
   text-decoration: none;
 }
 
-#case_study_ui .see_site2:hover, #case_study_ui2 .see_site2:hover, #case_study_coding .see_site2:hover {
+#case_study_ui .see_site1 .see_site2 .site_arrow, #case_study_ui2 .see_site1 .see_site2 .site_arrow, #case_study_coding .see_site1 .see_site2 .site_arrow {
+  float: right;
+  width: 19px;
+  height: 13px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#case_study_ui .see_site1 .see_site2 .site_arrow1, #case_study_ui2 .see_site1 .see_site2 .site_arrow1, #case_study_coding .see_site1 .see_site2 .site_arrow1 {
+  background-image: url(../images/pumpcothum2.jpg);
+  height: 13px;
+}
+
+#case_study_ui .see_site1 .see_site2 .site_arrow2, #case_study_ui2 .see_site1 .see_site2 .site_arrow2, #case_study_coding .see_site1 .see_site2 .site_arrow2 {
+  background-image: url(../images/arrowgray.svg);
+  height: 13px;
+}
+
+#case_study_ui .see_site1 .see_site2:hover, #case_study_ui2 .see_site1 .see_site2:hover, #case_study_coding .see_site1 .see_site2:hover {
   transition: 0.3 ease;
   color: #2D2F3E;
   border-bottom: 2px solid #2D2F3E;
 }
 
-#case_study_ui .see_site2:hover svg, #case_study_ui2 .see_site2:hover svg, #case_study_coding .see_site2:hover svg {
-  fill: #2D2F3E;
+#case_study_ui .see_site1 .see_site2:hover .site_arrow1, #case_study_ui2 .see_site1 .see_site2:hover .site_arrow1, #case_study_coding .see_site1 .see_site2:hover .site_arrow1 {
+  background-image: url(../images/arrowddarkblue.svg);
+  height: 13px;
 }
 
-#case_study_ui .see_site2 svg, #case_study_ui2 .see_site2 svg, #case_study_coding .see_site2 svg {
-  float: right;
+#case_study_ui .see_site1 .see_site2:hover .site_arrow2, #case_study_ui2 .see_site1 .see_site2:hover .site_arrow2, #case_study_coding .see_site1 .see_site2:hover .site_arrow2 {
+  background-image: url(../images/arrowwhite.svg);
+  height: 13px;
 }
 
 #case_study_ui2 {
@@ -2231,8 +2273,23 @@ footer .footernav .top:hover {
   padding-bottom: 1rem;
 }
 
-#more_studies .another_study .seemore svg {
+#more_studies .another_study .seemore .site_arrow {
   float: right;
+  width: 19px;
+  height: 13px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#more_studies .another_study .seemore .site_arrow1 {
+  background-image: url(../images/arrowwhite.svg);
+  height: 13px;
+}
+
+#more_studies .another_study .seemore .site_arrow2 {
+  background-image: url(../images/arrowgray.svg);
+  height: 13px;
 }
 
 #more_studies .another_study:hover {
@@ -2244,6 +2301,16 @@ footer .footernav .top:hover {
 
 #more_studies .another_study:hover .seemore {
   color: #ffffff;
+}
+
+#more_studies .another_study:hover .seemore .site_arrow1 {
+  background-image: url(../images/arrowddarkblue.svg);
+  height: 13px;
+}
+
+#more_studies .another_study:hover .seemore .site_arrow2 {
+  background-image: url(../images/arrowwhite.svg);
+  height: 13px;
 }
 
 #more_studies .Rave {
@@ -2638,21 +2705,32 @@ footer .footernav .top:hover {
     font-size: 100px;
     margin-bottom: -8rem;
   }
-  #case_study_ui .case_study_info .p2 {
+  #case_study_ui .case_study_info .p2, #case_study_ui2 .case_study_info .p2 {
     margin-left: auto;
     margin-right: auto;
   }
-  #case_study_ui .wireframe {
+  #case_study_ui .wireframe, #case_study_ui2 .wireframe {
     margin-top: 3rem;
   }
-  #case_study_ui .design3, #case_study_ui .design4 {
+  #case_study_ui .design3, #case_study_ui .design4, #case_study_ui2 .design3, #case_study_ui2 .design4 {
     margin-top: 3rem;
   }
-  #case_study_ui .see_site1 {
+  #case_study_ui .see_site1, #case_study_ui2 .see_site1 {
     display: none;
   }
-  #case_study_ui .see_site2 {
+  #case_study_ui .see_site2, #case_study_ui2 .see_site2 {
     display: block;
+    padding: 0 2rem 0 2rem;
+    margin-top: 6rem;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 100%;
+    color: #E0E0E0;
+    opacity: 1.00;
+    padding-bottom: 3rem;
+    text-decoration: none;
   }
   #more_studies {
     padding-top: 4rem;
@@ -2687,22 +2765,40 @@ footer .footernav .top:hover {
     margin: 3rem auto 0 auto;
     float: none;
   }
+  #case_study_ui2 .design6, #case_study_ui2 .design7 {
+    margin-top: 4rem;
+  }
   #more_studies {
     padding-bottom: 6rem;
   }
-  #more_studies .another_study .seemore {
+  #more_studies .another_study .see_site2 {
+    padding: 0 2rem 0 2rem;
+    margin-top: 6rem;
     font-family: "Roboto";
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 60%;
+    font-size: 18px;
+    line-height: 100%;
     color: #E0E0E0;
     opacity: 1.00;
-    padding-top: 6rem;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
+    text-decoration: none;
   }
-  #more_studies .another_study .seemore svg {
+  #more_studies .another_study .see_site2 .site_arrow {
     float: right;
+    width: 19px;
+    height: 13px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  #more_studies .another_study .see_site2 .site_arrow1 {
+    background-image: url(../images/arrowwhite.svg);
+    height: 13px;
+  }
+  #more_studies .another_study .see_site2 .site_arrow2 {
+    background-image: url(../images/arrowgray.svg);
+    height: 13px;
   }
 }
 
@@ -2716,6 +2812,18 @@ footer .footernav .top:hover {
   }
   #case_study_title {
     padding-bottom: 2rem;
+  }
+  #more_studies {
+    padding-bottom: 15rem;
+  }
+  #more_studies .another_study .category {
+    display: inline-block;
+    margin-top: 1rem;
+    max-width: 150px;
+  }
+  #more_studies .another_study .seemore {
+    font-size: 14px;
+    margin-top: -2rem;
   }
 }
 
