@@ -1823,6 +1823,7 @@ footer .footernav .top:hover {
   width: 800px;
   height: 100%;
   margin: 10rem auto 0 auto;
+  transition: 0.2s ease;
 }
 
 .arma_hero {
@@ -1830,7 +1831,7 @@ footer .footernav .top:hover {
 }
 
 .arma_hero .mockup_image {
-  background-image: url(../images/-armapresentation.png);
+  background-image: url(../images/_armapresentation.png);
 }
 
 .pumpco_hero {
@@ -1838,7 +1839,7 @@ footer .footernav .top:hover {
 }
 
 .pumpco_hero .mockup_image {
-  background-image: url(../images/-pumpcopresentation.svg);
+  background-image: url(../images/_pumpcopresentation.svg);
 }
 
 .rave_hero {
@@ -1846,7 +1847,7 @@ footer .footernav .top:hover {
 }
 
 .rave_hero .mockup_image {
-  background-image: url(../images/-ravepresentation.svg);
+  background-image: url(../images/_ravepresentation.svg);
 }
 
 .ip_hero {
@@ -1854,7 +1855,7 @@ footer .footernav .top:hover {
 }
 
 .ip_hero .mockup_image {
-  background-image: url(../images/-ippresentation.svg);
+  background-image: url(../images/_ippresentation.svg);
 }
 
 .red_hero {
@@ -1862,7 +1863,7 @@ footer .footernav .top:hover {
 }
 
 .red_hero .mockup_image {
-  background-image: url(../images/-redpresentation.png);
+  background-image: url(../images/_redpresentation.png);
 }
 
 .strnadel_hero {
